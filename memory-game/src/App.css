@@ -16,8 +16,29 @@ button {
 
 button:hover {
   background: #fff;
-  color: #67ab79;
+  color: #d1d1ca;
   transition: .4s ease-in-out;
+}
+
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.front,
+.back {
+  width: 200px;
+  height: 200px;
+  border-radius: 2%;
+  box-shadow: -4px -1px 15px 5px #00000025;
+}
+
+.header {
+  font-size: 3rem;
+  text-shadow: -3px -2px 2px #00000025;
+  text-transform: uppercase;
 }
 
 
